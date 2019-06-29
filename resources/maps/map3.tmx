@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="battleback" value=""/>
+  <property name="effectMap" value="sandStorm"/>
+  <property name="enableDayNight" value="true"/>
+  <property name="id" value="3"/>
+  <property name="monstersId" value=""/>
+  <property name="musicBattleTheme" value="battle2"/>
+  <property name="musicTheme" value="floresta"/>
+  <property name="rainConfig" value="true;true;-1;true;true"/>
+  <property name="spawnMaxMonsters" value="0"/>
+  <property name="spawnMinMonsters" value="0"/>
+  <property name="titleMap" value="Terceiro Mapa"/>
+ </properties>
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
+  <image source="Collision.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Dungeon_A1" tilewidth="32" tileheight="32">
+  <image source="Dungeon_A1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="449" name="Dungeon_A2" tilewidth="32" tileheight="32">
+  <image source="Dungeon_A2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="641" name="Dungeon_A4" tilewidth="32" tileheight="32">
+  <image source="Dungeon_A4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="881" name="Dungeon_A5" tilewidth="32" tileheight="32">
+  <image source="Dungeon_A5.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="1009" name="Dungeon_B" tilewidth="32" tileheight="32">
+  <image source="Dungeon_B.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1265" name="Dungeon_C" tilewidth="32" tileheight="32">
+  <image source="Dungeon_C.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1521" name="Inside_A1" tilewidth="32" tileheight="32">
+  <image source="Inside_A1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="1713" name="Inside_A2" tilewidth="32" tileheight="32">
+  <image source="Inside_A2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="1905" name="Inside_A4" tilewidth="32" tileheight="32">
+  <image source="Inside_A4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="2145" name="Inside_A5" tilewidth="32" tileheight="32">
+  <image source="Inside_A5.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="2273" name="Inside_B" tilewidth="32" tileheight="32">
+  <image source="Inside_B.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2529" name="Inside_C" tilewidth="32" tileheight="32">
+  <image source="Inside_C.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2785" name="JTileA1" tilewidth="32" tileheight="32">
+  <image source="JTileA1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="2977" name="JTileA2" tilewidth="32" tileheight="32">
+  <image source="JTileA2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="3169" name="JTileA3" tilewidth="32" tileheight="32">
+  <image source="JTileA3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3297" name="JTileA4" tilewidth="32" tileheight="32">
+  <image source="JTileA4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="3537" name="JTileA5" tilewidth="32" tileheight="32">
+  <image source="JTileA5.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="3665" name="JTileB" tilewidth="32" tileheight="32">
+  <image source="JTileB.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3921" name="JTileC" tilewidth="32" tileheight="32">
+  <image source="JTileC.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4177" name="JTileD" tilewidth="32" tileheight="32">
+  <image source="JTileD.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4433" name="Outside_A1" tilewidth="32" tileheight="32">
+  <image source="Outside_A1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="4625" name="Outside_A2" tilewidth="32" tileheight="32">
+  <image source="Outside_A2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="4817" name="Outside_A3" tilewidth="32" tileheight="32">
+  <image source="Outside_A3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4945" name="Outside_A4" tilewidth="32" tileheight="32">
+  <image source="Outside_A4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="5185" name="Outside_A5" tilewidth="32" tileheight="32">
+  <image source="Outside_A5.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="5313" name="Outside_B" tilewidth="32" tileheight="32">
+  <image source="Outside_B.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5569" name="TileA1" tilewidth="32" tileheight="32">
+  <image source="TileA1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="5761" name="TileA2" tilewidth="32" tileheight="32">
+  <image source="TileA2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="5953" name="TileA3" tilewidth="32" tileheight="32">
+  <image source="TileA3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6081" name="TileA4" tilewidth="32" tileheight="32">
+  <image source="TileA4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="6321" name="TileA5" tilewidth="32" tileheight="32">
+  <image source="TileA5.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="6449" name="TileB" tilewidth="32" tileheight="32">
+  <image source="TileB.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6705" name="TileC" tilewidth="32" tileheight="32">
+  <image source="TileC.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6961" name="TileD" tilewidth="32" tileheight="32">
+  <image source="TileD.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="7217" name="TileE" tilewidth="32" tileheight="32">
+  <image source="TileE.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="7473" name="World_A1" tilewidth="32" tileheight="32">
+  <image source="World_A1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="7665" name="World_A2" tilewidth="32" tileheight="32">
+  <image source="World_A2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="7857" name="World_B" tilewidth="32" tileheight="32">
+  <image source="World_B.png" width="512" height="512"/>
+ </tileset>
+ <layer name="00-Collision (Colisao)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NmYGBgHsVUw9gAPjlqgFF7R+0dtXfU3lF7h6a95NQx1KiPBspeYgA+daTGFa3jd9TeUXtH7R21l9r2DgQGAHCcTdAQDgAA
+  </data>
+ </layer>
+ <layer name="01-Water A (Agua A)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <layer name="02-Water B (Agua B)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <layer name="03-Ground A (Solo A)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VMQ6AIAxAUfQGev8NbwA3gHgu28HNtIhp4vCHnw40vLF5TemQctDc9uf0vUolYHpul1rA9NxziQkXFxcX95v79rbdf3p7llsmbpy6I3vVcNvEjVN3ZK8bLhER/bMLvcRT3BAOAAA=
+  </data>
+ </layer>
+ <layer name="04-Ground B (Solo B)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OIREAAAgEsDdY+sclAZLDbAmWAADsqr8HAFwZVfXZyhAOAAA=
+  </data>
+ </layer>
+ <layer name="05-Obstacles (Obstaculos)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XsQ0AIAwDwSyREjZg//WgjyukmIK39PXVjujdyNrMZvRsZc3hquHi4uLi4v7uvrBxcXFxb1z1Xxyp/+JoA81HfWIQDgAA
+  </data>
+ </layer>
+ <layer name="06-Decorations A (Decoracao A)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <layer name="07-Decorations B  (Decoracao B)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <layer name="08-Head UP A (Acima da Cabeca - A)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3KwQkAIAwEwZAefFq9Fip2kJcizsByn4sAgL+NjJhZ3636A+A9vZ3tpgWJnFryEA4AAA==
+  </data>
+ </layer>
+ <layer name="09-Head UP B (Acima da Cabeca - B)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <layer name="10-Sky A (Ceu A)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <layer name="11-Sky B (Ceu B)" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <objectgroup name="12-Objects (Objetos)" width="30" height="30">
+  <object name="obj2" type="ChangeMap" x="416" y="544" width="32" height="32">
+   <properties>
+    <property name="events" value="onStep"/>
+    <property name="nameNextMap" value="map2"/>
+    <property name="positionFace" value="faceUP"/>
+   </properties>
+  </object>
+  <object type="NpcMap" x="320" y="576" width="32" height="32">
+   <properties>
+    <property name="events" value="onTouchActivate;onTouch"/>
+    <property name="id" value="4"/>
+    <property name="positionFace" value="faceDOWN"/>
+   </properties>
+  </object>
+  <object type="NpcMap" x="544" y="576" width="32" height="32">
+   <properties>
+    <property name="events" value="onTouchActivate;onTouch"/>
+    <property name="id" value="5"/>
+    <property name="positionFace" value="faceDOWN"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

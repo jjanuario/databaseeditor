@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.DerbyDialect</property>
+        <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
+        <!--
+        
+        <property name="hibernate.connection.url">jdbc:derby:/home/jeferson/Aplication/workspace/Parallax/db</property>
+        -->
+        <property name="hibernate.connection.url">jdbc:derby:db</property>
+        <property name="hibernate.connection.username">parallax</property>
+        <property name="hibernate.connection.password">parallax</property>
+        <property name="hibernate.transaction.flush_before_completion">true</property>
+        
+        <property name="hibernate.c3p0.timeout">5</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.format_sql">true</property>
+        
+        <mapping class="game.db.entity.AnimationObject"/>
+        <mapping class="game.db.entity.CharacterHero"/>
+        <mapping class="game.db.entity.Classe"/>
+        <mapping class="game.db.entity.Imagem"/>
+        <mapping class="game.db.entity.CharacterHeroObjective"/>
+        <mapping class="game.db.entity.CharacterHeroSkill"/>
+        <mapping class="game.db.entity.Configuration"/>
+        <mapping class="game.db.entity.Message"/>
+        <mapping class="game.db.entity.Monster"/>
+        <mapping class="game.db.entity.MonsterSkill"/>
+        <mapping class="game.db.entity.MonsterSkill"/>
+        <mapping class="game.db.entity.Npc"/>
+        <mapping class="game.db.entity.Reward"/>
+        <mapping class="game.db.entity.TerraInType"/>
+        <mapping class="game.db.entity.Quest"/>
+        <mapping class="game.db.entity.Objective"/>
+        <mapping class="game.db.entity.TypeDamage"/>
+        <mapping class="game.db.entity.Skill"/>
+        <mapping class="game.db.entity.Music"/>
+         <mapping class="game.db.entity.SkillStatusEffect"/>
+         <mapping class="game.db.entity.CharacterHeroStatusEffect"/>
+         <mapping class="game.db.entity.Sound"/>
+         
+    </session-factory>
+</hibernate-configuration>
