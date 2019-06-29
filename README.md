@@ -24,7 +24,7 @@ static {
     public static SessionFactory getSessionFactory() {
         return sessionFactory;
     }
-    
+```    
 ## Installation
 Deve ser compilado para funcionar, aqui temos apenas o codigo.
 
