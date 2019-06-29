@@ -36,7 +36,7 @@ Toda documentação na pasta doc.
 Testes realizados por Joao Pedro
 
 ## How to use?
-[Como usar](https://www.youtube.com/watch?v=Btg0Pez6BSs)
+[Demonstração](https://www.youtube.com/watch?v=Btg0Pez6BSs)
 
 ## License
 BSD 3
