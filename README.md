@@ -1,5 +1,5 @@
 # <p align="center">Data Base Editor</p>
-![](databaseeditor_firtview.PNG)
+![](databaseeditor_firstview.PNG)
 <br>
 ![](databaseeditor_configuration.PNG)
 
