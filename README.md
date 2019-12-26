@@ -1,4 +1,4 @@
-# :Data Base Editor:
+# <center>Data Base Editor</center>
 ![](databaseeditor_firtview.png)
 <br>
 ![](databaseeditor_configuration.png)
