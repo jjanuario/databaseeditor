@@ -1,4 +1,8 @@
-## Data Base Editor
+# :Data Base Editor:
+![][databaseeditor_firtview.png]
+<br>
+![][databaseeditor_configuration.png]
+
 Escrito em Java utilizando Swing e Hibernate, criado para manipular o conteudo de um banco de dados Derby embarcado utilizado pelo [Projeto Parallax](https://sourceforge.net/projects/parallaxu/files/). 
 
 ## Motivação
