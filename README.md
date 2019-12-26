@@ -1,7 +1,7 @@
 # <p align="center">Data Base Editor</p>
-![](databaseeditor_firtview.png)
+![](databaseeditor_firtview.PNG)
 <br>
-![](databaseeditor_configuration.png)
+![](databaseeditor_configuration.PNG)
 
 Escrito em Java utilizando Swing e Hibernate, criado para manipular o conteudo de um banco de dados Derby embarcado utilizado pelo [Projeto Parallax](https://sourceforge.net/projects/parallaxu/files/). 
 
